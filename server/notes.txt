@@ -1,0 +1,21 @@
+///////////////////////////////////--URL-shortner--///////////////////////////////////
+
+///Functions
+1. You provide a long URL, it will get converted to a short URL with custom domain name(localhost for the time being).
+
+
+
+
+
+
+///Database Architecture
+1. A table R(uid, long_url, short_endpoint, user_id)
+
+
+///Rough notes
+1. API endpoints:
+    i. shorten.dk/ -> method: POST
+                   -> body.url: "long_url"
+                   -> response: {code: integer, shortUrl: string(optional, only when success code received)}
+
+    ii. / -> 
