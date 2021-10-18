@@ -1,0 +1,2 @@
+background: white
+color for text: #2aa527
