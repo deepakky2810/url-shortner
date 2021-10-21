@@ -1,0 +1,15 @@
+############################50 characters##########################
+# Subject: Summary, imperative, start upper case, don't end with a period
+# Subject: UI | Message
+# Subject: SERVER | Message
+# Subject: BOTH | Message
+Subject:
+
+############################72 characters##########################
+# Body: Explain *problem* and *solution* in very brief.
+Problem: 
+# Problem, Task, Reason for Commit
+Solution
+# Solution or List of Changes
+Note
+# Any special instructions, testing steps, rake, etc
