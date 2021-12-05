@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./",
+		"paths": {
+			"@Actions/*": ["./src/actions/*"],
+			"@Components/*": ["./src/components/*"],
+			"@Pages/*": ["./src/pages/*"],
+			"@Reducers/*": ["./src/reducers/*"],
+			"@Routing/*": ["./src/sagas/*"],
+			"@Services/*": ["./src/services/*"],
+			"@Utils/*": ["./src/utils/*"]
+		}
+	},
+	"exclude": ["node_modules", "dist"]
+}

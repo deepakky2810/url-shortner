@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Grid, makeStyles, Button, Typography } from "@material-ui/core";
-import CustomTextField from "../components/CustomTextField";
-import { signup } from "../services/networkServices";
+import CustomTextField from "@Components/CustomTextField";
+import { signup } from "../../services/networkServices";
 
 const useStyles = makeStyles(() => ({
 	rootContainer: {

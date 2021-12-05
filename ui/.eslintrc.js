@@ -16,6 +16,21 @@ module.exports = {
 		"plugin:import/errors",
 		"plugin:import/warnings",
 	],
+	settings: {
+		"import/resolver": {
+			alias: {
+				map: [
+					["@Actions", "./src/actions"],
+					["@Components", "./src/components"],
+					["@Pages", "./src/pages"],
+					["@Reducers", "./src/reducers"],
+					["@Routing", "./src/sagas"],
+					["@Services", "./src/services"],
+					["@Utils", "./src/utils"],
+				],
+			},
+		},
+	},
 	parserOptions: {
 		ecmaFeatures: {
 			jsx: true,
